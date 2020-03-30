@@ -26,5 +26,12 @@ namespace WebApplication1.Controllers
 
             return View();
         }
+
+        public ActionResult HomeLoan()
+        {
+            ViewBag.Message = "Your Home Loan page.";
+
+            return View();
+        }
     }
 }
